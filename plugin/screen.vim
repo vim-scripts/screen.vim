@@ -11,8 +11,8 @@ nnoremap <Leader>n       :bnext<CR>
 nnoremap <Leader><C-n>   :bnext<CR>
 nnoremap <Leader>p       :bprev<CR>
 nnoremap <Leader><C-p>   :bprev<CR>
-nnoremap <Leader>c       :new<CR>
-nnoremap <Leader><C-c>   :new<CR>
+nnoremap <Leader>c       :new\|only<CR>
+nnoremap <Leader><C-c>   :new\|onlyCR>
 nnoremap <Leader>K       :bdel<CR>
 nnoremap <Leader>S       :split<CR>
 nnoremap <Leader><Tab>   :wincmd w<CR>

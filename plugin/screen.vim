@@ -6,19 +6,20 @@
 " different meta/leader character
 let mapleader = "" 
 
-nnoremap <Leader><Space> :bnext<CR>			" space -> next buffer
-nnoremap <Leader>n       :bnext<CR>			" n     -> next buffer
-nnoremap <Leader><C-n>   :bnext<CR>			" <C-n> -> next buffer
-nnoremap <Leader>p       :bprev<CR>			" p     -> prev buffer
-nnoremap <Leader><C-p>   :bprev<CR>			" <C-p> -> prev buffer
-nnoremap <Leader>c       :new<CR>           " <C-c> -> new buffer
-nnoremap <Leader><C-c>   :new<CR>           " <C-c> -> new buffer
-nnoremap <Leader>K       :bdel<CR>          " K     -> new buffer
-nnoremap <Leader>S       :split<CR>         " K     -> split
-nnoremap <Leader><Tab>   :wincmd w<CR>      " <Tab> -> next window
-nnoremap <Leader>Q       :only<CR>          " Q     -> only
-nnoremap <Leader>Q       :only<CR>          " Q     -> only
-nnoremap <Leader>w       :ls<CR>            " w     -> list buffers
-nnoremap <Leader><C-w>   :ls<CR>            " <C-w> -> list buffers
-nnoremap <Leader>a       :e #<CR>           " a     -> previous buffer
-nnoremap <Leader><C-a>   :e #<CR>           " <C-a> -> previous buffer
+nnoremap <Leader><Space> :bnext<CR>
+nnoremap <Leader>n       :bnext<CR>
+nnoremap <Leader><C-n>   :bnext<CR>
+nnoremap <Leader>p       :bprev<CR>
+nnoremap <Leader><C-p>   :bprev<CR>
+nnoremap <Leader>c       :new<CR>
+nnoremap <Leader><C-c>   :new<CR>
+nnoremap <Leader>K       :bdel<CR>
+nnoremap <Leader>S       :split<CR>
+nnoremap <Leader><Tab>   :wincmd w<CR>
+nnoremap <Leader>Q       :only<CR>
+nnoremap <Leader>Q       :only<CR>
+nnoremap <Leader>w       :ls<CR>
+nnoremap <Leader><C-w>   :ls<CR>
+nnoremap <Leader>a       :e #<CR>
+nnoremap <Leader><C-a>   :e #<CR>
+nnoremap <Leader>"       :BufExp<CR>
